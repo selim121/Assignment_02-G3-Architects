@@ -1,10 +1,11 @@
 # Assignment_02-G3-Architects
 
-Desktop view:
+# Desktop view:
 
+# -------------------------------------------------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/selim121/Assignment_02-G3-Architects/blob/main/images/webview/desktop/1.png" width="900" height="500">
 
-
+# -------------------------------------------------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/selim121/Assignment_02-G3-Architects/blob/main/images/webview/desktop/2.png" width="900" height="500">
 
 
@@ -23,7 +24,7 @@ Desktop view:
 <img src="https://github.com/selim121/Assignment_02-G3-Architects/blob/main/images/webview/desktop/7.png" width="900" height="500">
 
 
-Small device view:
+# Small device view:
 
 <img src="https://github.com/selim121/Assignment_02-G3-Architects/blob/main/images/webview/mobile/1.png" width="900" height="500">
 
