@@ -5,6 +5,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
+    /* border: 1px solid red; */
 }
 .primary-btn {
     width: 180px;
@@ -42,7 +43,7 @@ header {
 
 .header-title {
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 40px;
     color: #131313;
 }
 
@@ -53,7 +54,7 @@ nav ul {
 
 nav li {
     list-style: none;
-    font-size: 1.2vw;
+    font-size: 20px;
     font-weight: 500;
     color: #424242;
 }
@@ -64,15 +65,12 @@ nav li {
 
 .info-title {
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 64px;
     color: #131313;
     text-align: center;
 }
 
 .info {
-    font-weight: 400;
-    font-size: 1vw;
-    color: #727272;
     text-align: center;
 }
 .explore-more-btn{
@@ -182,7 +180,7 @@ nav li {
 }
 /* animation */
 .example:hover{
-    animation: roll 1s 3;
+    animation: roll 1s 1;
     transform: rotate(0deg);
     opacity: .7;
 }
@@ -248,3 +246,73 @@ nav li {
     color: #424242;
 }
 
+/* responsive styles */
+
+/* small device */
+@media only screen and (max-width: 576px) {
+    .primary-heading{
+        margin: 0;
+    }
+    .header-title{
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    .header-info{
+        margin: 0 20%;
+    }
+    .info-title{
+        font-size: 25px;
+    }
+    .nav{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+    .nav ul,
+    .features-love{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .explore-more-btn {
+        margin: 30px 0 50px 35%;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .features-photos{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features-heading-details{
+        text-align: center;
+    }
+    .architect img{
+        height: 100%;
+        width: 100%;
+    }
+    .experience-btn, .btn-style{
+        margin: 20px 0 0 0;
+    }
+    .features-example{
+        margin: 50px 0;
+        text-align: center;
+    }
+    .examples{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 40px;
+        margin-bottom: 50px;
+    }
+    .sponsors-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 40px;
+        margin-left: 30%;
+    }
+    .contact-us{
+        flex-direction: column;
+        gap: 40px;
+        margin: 0;
+        text-align: center;
+    }
+    .footer{
+        margin-top: 50px;
+    }
+}
