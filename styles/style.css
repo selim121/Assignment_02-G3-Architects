@@ -1,0 +1,221 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope&family=Open+Sans&family=Poppins&family=Work+Sans&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+.primary-btn {
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.primary-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.primary-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+/* header styles */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 110%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    align-items: center;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 2vw;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav li {
+    list-style: none;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #424242;
+}
+
+.header-info{
+    margin: 0 30%;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 3vw;
+    color: #131313;
+    text-align: center;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 1vw;
+    color: #727272;
+    text-align: center;
+}
+.explore-more-btn{
+    margin: 30px 45% 50px 45%;
+}
+.header-img{
+    text-align: center;
+}
+.header-img img{
+    height: 100%;
+    width: 75%;
+    margin-bottom: 45px;
+}
+
+/* main styles */
+.main-container{
+    margin: 85px 10% 0 10%;
+}
+.features{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+.features-photos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+.photo img{
+    height: 342px;
+    width: 342px;
+    border-radius: 8px;
+}
+.title-style{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.title-style0{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.title-style1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+/* features you will love & enjoy styles */
+.features-love{
+    display: flex;
+    gap: 146px;
+}
+.features-heading{
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+}
+.features-item{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.experience-btn{
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 10%;
+}
+.btn-style{
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -150px;
+}
+.text-style{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+/* features example styles */
+.features-example{
+    margin: 100px 60% 100px 0;
+}
+.examples{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 50px 150px 50px;
+}
+.example{
+    height: 242px;
+    width: 242px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+    text-align: center;
+    padding: 45px 35px 60px 35px;
+}
+.example p{
+    font-weight: 600;
+        font-size: 20px;
+    color: #727272;
+}
+/* our sponsors styles */
+.our-sponsors{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+.sponsors-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-bottom: 100px;
+}
+.sponsor img{
+    filter: grayscale(1);
+}
+
+/* footer styles */
+.footer{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 200px;
+}
+.footer p{
+    margin: 0;
+    padding: 40px 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
